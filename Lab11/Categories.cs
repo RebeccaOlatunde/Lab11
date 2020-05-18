@@ -1,10 +1,14 @@
-﻿using System;
-namespace Lab11
+using System;
+namespace lab11
 {
-    public class Categories
+    public class Category
     {
-        public Categories()
+        public enum Category
         {
+            animated = 2,
+            horror = 2,
+            drama = 3,
+            scifi = 3,
         }
     }
 }
